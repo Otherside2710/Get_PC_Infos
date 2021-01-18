@@ -1,7 +1,5 @@
 import platform, os, subprocess, re
 
-def Ascii_Apple():
-    
 
 def Get_CPU_NAME():  ## Return CPU Name depending on which platform the program is Used
      if platform.system() == "Darwin":
