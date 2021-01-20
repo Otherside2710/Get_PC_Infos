@@ -1,6 +1,5 @@
 # Get_PC_Infos
-<<<<<<< HEAD
-Tool to get System infos for mac OS. First version will be with CMD Interface, a GUI Will be created later. 
-=======
-Tool to get System infos on ###MAC OS###. First version will be with CMD Interface, a GUI Will be created later. 
->>>>>>> df15e44f799fb7bc5e48239fe337d7ff194c34ae
+Outil pour visualiser différentes informations sur l'utilisation de son mac.
+l'idée est de récupérer les données, les écrire de façons formatées dans un fichier json.
+
+Enfin, utiliser ce fichier json et en extraire les données pour les mettre en forme sur une app dotée d'une GUI faite en JS. Sans doute à l'aide de React ou d'electron. 
