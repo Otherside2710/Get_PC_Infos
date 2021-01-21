@@ -18,7 +18,7 @@ def main():
         time.sleep(1)
         os.system('clear')
 def convert_to_Mo(value):
-    return value/1024./1024.
+    return value / (1024.0 ** 2)
 
 def send_stat_Download(value):
     print ("Download : " + "%0.3f" % convert_to_Mo(value) + " Mo")
