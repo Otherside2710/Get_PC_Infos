@@ -19,7 +19,7 @@ def Get_stats():  ## Return CPU Name depending on which platform the program is 
         Available_memory = '%.2f' % Available_memory
         myjson = open("stats.json", "w+")
         myjson.write("{\n  \"Statistics\": {")
-        myjson.write("\n    \"Cpu name\": \"{}".format(cpu_Name))
+        myjson.write("\n    \"Cpu_name\": \"{}".format(cpu_Name))
         myjson.write("\n    \"Cpu load\": \"" + cpu_load + "%\",")
         myjson.write("\n    \"Available memory\": \"" + Available_memory + " Go\",")
         myjson.write("\n    \"Total memory\": \"{} Go\"".format(psutil.virtual_memory().total / (1024.0 ** 3)))
